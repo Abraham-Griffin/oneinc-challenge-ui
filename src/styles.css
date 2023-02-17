@@ -1,0 +1,25 @@
+body {
+  background-color: #f9fafb;
+}
+button {
+  background: rgb(147, 213, 0) !important;
+  border-radius: 50px !important;
+  border-width: 2px !important;
+  font-family: inherit !important;
+  font-size: inherit !important;
+  font-size: 1rem !important;
+  font-weight: 500 !important;
+  line-height: 34px !important;
+  opacity: 1 !important;
+  padding: 0.5rem 1.5rem !important;
+  transition: all 0.5s ease-out !important;
+}
+label {
+  font-size: larger;
+  font-weight: 600;
+}
+input {
+  height: 45px;
+  border-radius: 40px;
+  font-size: 25px !important;
+}
