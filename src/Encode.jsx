@@ -57,7 +57,7 @@ function Encode() {
       <Header />
       <div className="container text-center mt-5">
         <h1>Encoding String</h1>
-        <div className="row offset-4 mt-4">
+        <div className="row offset-sm-4 mt-4">
           <div className="col-md-6">
             <label className="form-label">Encode string:</label>
             <input
@@ -68,7 +68,7 @@ function Encode() {
             />
           </div>
         </div>
-        <div className="row offset-3">
+        <div className="row offset-sm-3">
           <Button
             id="encode-button"
             className="btn col-md-4 mt-4"
@@ -96,7 +96,7 @@ function Encode() {
           </Button>
         </div>
 
-        <div className="col-md-4 offset-4 mt-5">
+        <div className="col-md-4 offset-sm-4 mt-5">
           <label className="form-label">Encoded string response:</label>
           <input id="output-encoding" type="textbox" className="form-control" />
         </div>
